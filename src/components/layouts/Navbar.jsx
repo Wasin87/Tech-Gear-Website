@@ -280,8 +280,8 @@ const Navbar = () => {
             {isLoggedIn ? (
               <div className="hidden md:block dropdown dropdown-end">
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-                  <div className="w-8 h-8 rounded-full bg-black flex items-center justify-center">
-                    <span className="font-semibold text-white text-sm">
+                  <div className="w-8 h-8 rounded-full bg-black border border-white  flex items-center justify-center">
+                    <span className=" font-semibold text-white text-sm">
                       {userName ? userName.charAt(0).toUpperCase() : 'U'}
                     </span>
                   </div>
