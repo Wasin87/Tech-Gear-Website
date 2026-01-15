@@ -1,0 +1,42 @@
+[
+{
+    "id": 1,
+    "name": "iPhone 15 Pro Max",
+    "description": "Latest iPhone with A17 Pro chip, Titanium design, and advanced camera system",
+    "price": 139900,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Mobile"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S24 Ultra",
+    "description": "AI-powered smartphone with S Pen, 200MP camera, and Snapdragon 8 Gen 3",
+    "price": 129900,
+    "brand": "Samsung",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Mobile"
+  },
+  {
+    "id": 3,
+    "name": "MacBook Pro 16-inch",
+    "description": "M3 Max chip, 16-inch Liquid Retina XDR display, 36GB RAM, 1TB SSD",
+    "price": 269900,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "category": "Laptop"
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 15",
+    "description": "15.6-inch OLED display, Intel Core i9, 32GB RAM, NVIDIA RTX 4070",
+    "price": 204900,
+    "brand": "Dell",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "Laptop"
+  }
+]

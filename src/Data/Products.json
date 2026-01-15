@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro Max",
+    "description": "Latest iPhone with A17 Pro chip, Titanium design, and advanced camera system",
+    "price": 139900,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Mobile"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S24 Ultra",
+    "description": "AI-powered smartphone with S Pen, 200MP camera, and Snapdragon 8 Gen 3",
+    "price": 129900,
+    "brand": "Samsung",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Mobile"
+  },
+  {
+    "id": 3,
+    "name": "MacBook Pro 16-inch",
+    "description": "M3 Max chip, 16-inch Liquid Retina XDR display, 36GB RAM, 1TB SSD",
+    "price": 269900,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "category": "Laptop"
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 15",
+    "description": "15.6-inch OLED display, Intel Core i9, 32GB RAM, NVIDIA RTX 4070",
+    "price": 204900,
+    "brand": "Dell",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "Laptop"
+  },
+  {
+    "id": 5,
+    "name": "AirPods Pro (2nd Gen)",
+    "description": "Active Noise Cancellation, Adaptive Audio, USB-C charging case",
+    "price": 26900,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.5,
+    "category": "Accessories"
+  },
+  {
+    "id": 6,
+    "name": "Sony WH-1000XM5",
+    "description": "Industry-leading noise cancellation, 30-hour battery, premium comfort",
+    "price": 42900,
+    "brand": "Sony",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Accessories"
+  },
+  {
+    "id": 7,
+    "name": "iPad Pro 12.9-inch",
+    "description": "M2 chip, Liquid Retina XDR display, ProMotion technology",
+    "price": 118900,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Tablet"
+  },
+  {
+    "id": 8,
+    "name": "Google Pixel 8 Pro",
+    "description": "Tensor G3 chip, AI-powered features, best-in-class camera",
+    "price": 96900,
+    "brand": "Google",
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=2026&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "Mobile"
+  },
+  {
+    "id": 9,
+    "name": "Asus ROG Zephyrus G14",
+    "description": "Gaming laptop with AMD Ryzen 9, NVIDIA RTX 4060, 14-inch display",
+    "price": 172900,
+    "brand": "Asus",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=2068&auto=format&fit=crop",
+    "rating": 4.5,
+    "category": "Laptop"
+  },
+  {
+    "id": 10,
+    "name": "Apple Watch Ultra 2",
+    "description": "Rugged smartwatch with advanced fitness tracking and dive computer",
+    "price": 85900,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Wearable"
+  },
+  {
+    "id": 11,
+    "name": "Samsung Galaxy Watch 6",
+    "description": "Advanced health monitoring, sleep tracking, LTE connectivity",
+    "price": 37900,
+    "brand": "Samsung",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=2064&auto=format&fit=crop",
+    "rating": 4.4,
+    "category": "Wearable"
+  },
+  {
+    "id": 12,
+    "name": "Logitech MX Master 3S",
+    "description": "Wireless mouse with MagSpeed scrolling, Darkfield tracking",
+    "price": 10700,
+    "brand": "Logitech",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?q=80&w=2028&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "Accessories"
+  },
+  {
+    "id": 13,
+    "name": "OnePlus 11 5G",
+    "description": "Hasselblad camera, 100W fast charging, Snapdragon 8 Gen 2",
+    "price": 75900,
+    "brand": "OnePlus",
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=2026&auto=format&fit=crop",
+    "rating": 4.5,
+    "category": "Mobile"
+  },
+  {
+    "id": 14,
+    "name": "HP Spectre x360",
+    "description": "2-in-1 convertible laptop, 13.5-inch OLED, Intel Evo platform",
+    "price": 161900,
+    "brand": "HP",
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.4,
+    "category": "Laptop"
+  },
+  {
+    "id": 15,
+    "name": "Apple MagSafe Charger",
+    "description": "Magnetic wireless charger for iPhone and AirPods",
+    "price": 4200,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.2,
+    "category": "Accessories"
+  },
+  {
+    "id": 16,
+    "name": "Samsung T7 Shield SSD",
+    "description": "2TB portable SSD, water and dust resistant, 1050MB/s read speed",
+    "price": 16100,
+    "brand": "Samsung",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Storage"
+  },
+  {
+    "id": 17,
+    "name": "Microsoft Surface Pro 9",
+    "description": "2-in-1 tablet/laptop, 13-inch PixelSense display, Intel Core i7",
+    "price": 139900,
+    "brand": "Microsoft",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.5,
+    "category": "Tablet"
+  },
+  {
+    "id": 18,
+    "name": "Bose QuietComfort Earbuds II",
+    "description": "True wireless earbuds with CustomTune technology",
+    "price": 29900,
+    "brand": "Bose",
+    "image": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "Accessories"
+  },
+  {
+    "id": 19,
+    "name": "Razer Blade 15",
+    "description": "Gaming laptop with QHD display, Intel i7, NVIDIA RTX 4070",
+    "price": 247900,
+    "brand": "Razer",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Laptop"
+  },
+  {
+    "id": 20,
+    "name": "Google Pixel Tablet",
+    "description": "Tablet with charging speaker dock, Tensor G2 chip, 11-inch display",
+    "price": 53900,
+    "brand": "Google",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.3,
+    "category": "Tablet"
+  },
+  {
+    "id": 21,
+    "name": "Anker 737 Power Bank",
+    "description": "240W GaNPrime power bank, 24,000mAh capacity, Power Delivery 3.1",
+    "price": 16100,
+    "brand": "Anker",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Accessories"
+  },
+  {
+    "id": 22,
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "description": "Business laptop with 14-inch display, Intel vPro, military-grade durability",
+    "price": 193900,
+    "brand": "Lenovo",
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "Laptop"
+  },
+  {
+    "id": 23,
+    "name": "JBL Flip 6 Bluetooth Speaker",
+    "description": "Portable waterproof speaker, 12 hours battery, PartyBoost feature",
+    "price": 13900,
+    "brand": "JBL",
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=2065&auto=format&fit=crop",
+    "rating": 4.5,
+    "category": "Accessories"
+  },
+  {
+    "id": 24,
+    "name": "DJI Mini 4 Pro Drone",
+    "description": "Lightweight drone with 4K/60fps video, 34min flight time, obstacle sensing",
+    "price": 81900,
+    "brand": "DJI",
+    "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "category": "Camera"
+  },
+  {
+    "id": 25,
+    "name": "Samsung Galaxy Z Fold 5",
+    "description": "Foldable smartphone with 7.6-inch main display, S Pen support, and multi-window multitasking",
+    "price": 193900,
+    "brand": "Samsung",
+    "image": "https://images.unsplash.com/photo-1595941069915-4ebc5197c14a?q=80&w=2080&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "Mobile"
+  },
+  {
+    "id": 26,
+    "name": "Microsoft Surface Laptop Studio",
+    "description": "Convertible laptop with 14.4-inch touchscreen, Intel Core i7, and NVIDIA RTX 4050",
+    "price": 225900,
+    "brand": "Microsoft",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Laptop"
+  },
+  {
+    "id": 27,
+    "name": "Bose QuietComfort 45 Headphones",
+    "description": "Wireless noise-cancelling headphones with 24-hour battery life and world-class audio",
+    "price": 35400,
+    "brand": "Bose",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Accessories"
+  },
+  {
+    "id": 28,
+    "name": "Apple Mac Studio",
+    "description": "Desktop computer with M2 Ultra chip, 64GB RAM, and 1TB SSD for professional workflows",
+    "price": 430900,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "category": "Desktop"
+  },
+  {
+    "id": 29,
+    "name": "Sony A7 IV Camera",
+    "description": "Full-frame mirrorless camera with 33MP sensor, 4K video, and advanced autofocus",
+    "price": 269900,
+    "brand": "Sony",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=2053&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Camera"
+  },
+  {
+    "id": 30,
+    "name": "Google Nest Hub Max",
+    "description": "Smart display with 10-inch screen, Google Assistant, and home security features",
+    "price": 24700,
+    "brand": "Google",
+    "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.4,
+    "category": "Smart Home"
+  },
+  {
+    "id": 31,
+    "name": "Razer BlackShark V2 Pro",
+    "description": "Wireless gaming headset with THX Spatial Audio and 24-hour battery life",
+    "price": 19300,
+    "brand": "Razer",
+    "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?q=80&w=2069&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "Gaming"
+  },
+  {
+    "id": 32,
+    "name": "LG UltraGear OLED Monitor",
+    "description": "27-inch OLED gaming monitor with 240Hz refresh rate and 0.03ms response time",
+    "price": 96900,
+    "brand": "LG",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Monitor"
+  },
+  {
+    "id": 33,
+    "name": "Amazon Echo Show 15",
+    "description": "15.6-inch smart display with Alexa, family organization features, and video calling",
+    "price": 26900,
+    "brand": "Amazon",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.3,
+    "category": "Smart Home"
+  },
+  {
+    "id": 34,
+    "name": "GoPro HERO12 Black",
+    "description": "Action camera with 5.3K video, HyperSmooth 6.0 stabilization, and waterproof design",
+    "price": 42900,
+    "brand": "GoPro",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=2053&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Camera"
+  },
+  {
+    "id": 35,
+    "name": "HP Omen 45L Desktop",
+    "description": "Gaming desktop with Intel Core i9, NVIDIA RTX 4090, and Cryo Chamber cooling",
+    "price": 355900,
+    "brand": "HP",
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=2042&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Desktop"
+  },
+  {
+    "id": 36,
+    "name": "Xbox Series X",
+    "description": "Next-gen gaming console with 4K gaming, 120 FPS, and 1TB storage",
+    "price": 53900,
+    "brand": "Microsoft",
+    "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Gaming"
+  },
+  {
+    "id": 37,
+    "name": "PlayStation 5",
+    "description": "Gaming console with 4K/120fps support, ray tracing, and 825GB SSD",
+    "price": 53900,
+    "brand": "Sony",
+    "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Gaming"
+  },
+  {
+    "id": 38,
+    "name": "Apple TV 4K",
+    "description": "Streaming device with A15 Bionic chip, Dolby Vision, and HomeKit integration",
+    "price": 13900,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.5,
+    "category": "Streaming"
+  },
+  {
+    "id": 39,
+    "name": "Kindle Paperwhite",
+    "description": "Waterproof e-reader with 6.8-inch display, adjustable warm light, and weeks of battery",
+    "price": 14900,
+    "brand": "Amazon",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "E-Reader"
+  },
+  {
+    "id": 40,
+    "name": "Fitbit Sense 2",
+    "description": "Advanced health smartwatch with ECG, stress management, and 6+ day battery",
+    "price": 32200,
+    "brand": "Fitbit",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop",
+    "rating": 4.4,
+    "category": "Wearable"
+  },
+  {
+    "id": 41,
+    "name": "Nintendo Switch OLED",
+    "description": "Gaming console with 7-inch OLED screen, enhanced audio, and 64GB storage",
+    "price": 37900,
+    "brand": "Nintendo",
+    "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "Gaming"
+  },
+  {
+    "id": 42,
+    "name": "Samsung QLED 4K TV",
+    "description": "65-inch 4K QLED TV with Quantum HDR, Object Tracking Sound, and Gaming Hub",
+    "price": 129900,
+    "brand": "Samsung",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "category": "TV"
+  },
+  {
+    "id": 43,
+    "name": "Apple HomePod mini",
+    "description": "Smart speaker with Siri, computational audio, and smart home hub",
+    "price": 10700,
+    "brand": "Apple",
+    "image": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.5,
+    "category": "Smart Home"
+  },
+  {
+    "id": 44,
+    "name": "DJI Osmo Pocket 3",
+    "description": "Pocket-sized 4K camera with 1-inch sensor, 3-axis gimbal, and rotating screen",
+    "price": 71900,
+    "brand": "DJI",
+    "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Camera"
+  },
+  {
+    "id": 45,
+    "name": "Logitech MX Keys Mini",
+    "description": "Wireless mechanical keyboard with smart backlighting and multi-device flow",
+    "price": 10700,
+    "brand": "Logitech",
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?q=80&w=1976&auto=format&fit=crop",
+    "rating": 4.6,
+    "category": "Accessories"
+  },
+  {
+    "id": 46,
+    "name": "HyperX Cloud III Wireless",
+    "description": "Wireless gaming headset with DTS Headphone:X spatial audio and 120-hour battery",
+    "price": 16100,
+    "brand": "HyperX",
+    "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?q=80&w=2069&auto=format&fit=crop",
+    "rating": 4.5,
+    "category": "Gaming"
+  },
+  {
+    "id": 47,
+    "name": "ASUS ROG Swift Monitor",
+    "description": "32-inch 4K gaming monitor with 144Hz refresh rate and G-Sync Ultimate",
+    "price": 139900,
+    "brand": "Asus",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "category": "Monitor"
+  },
+  {
+    "id": 48,
+    "name": "Canon EOS R5",
+    "description": "Full-frame mirrorless camera with 45MP, 8K video, and in-body image stabilization",
+    "price": 419900,
+    "brand": "Canon",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=2053&auto=format&fit=crop",
+    "rating": 4.9,
+    "category": "Camera"
+  }
+]
