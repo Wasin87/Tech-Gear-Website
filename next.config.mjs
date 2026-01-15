@@ -68,20 +68,16 @@ const nextConfig = {
         hostname: 'localhost',
         pathname: '/**',
       },
-      // Add any other domains you might use
-      {
-        protocol: 'https',
-        hostname: '**', // This allows all HTTPS domains (use with caution in production)
-      }
+   
     ],
   },
   
   // Optional: Add other configurations
-  experimental: {
-    serverActions: {
-      allowedOrigins: ['localhost:3000', 'your-domain.com']
-    }
-  }
+  // experimental: {
+  //   serverActions: {
+  //     allowedOrigins: ['localhost:3000', 'your-domain.com']
+  //   }
+  // }
 };
 
 export default nextConfig;
