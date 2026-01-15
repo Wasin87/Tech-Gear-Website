@@ -1,7 +1,7 @@
 "use client";
 
 import LoginForm from '@/components/Form/LoginForm';
-import React, { useEffect } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Shield, Smartphone, Laptop, Tablet, Headphones } from 'lucide-react';
@@ -52,9 +52,10 @@ const Login = () => {
           
           
           {/* Login Form */}
-          <LoginForm />
+          <Suspense fallback={<div>Loading...</div>}>
+            <LoginForm />
+          </Suspense>
 
-       
         </div>
 
         {/* Need Help */}
