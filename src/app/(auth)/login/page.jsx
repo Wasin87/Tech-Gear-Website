@@ -1,31 +1,15 @@
+ 
 "use client";
-
 import LoginForm from '@/components/Form/LoginForm';
-import React, { Suspense, useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+ 
 import { motion } from 'framer-motion';
 import { Shield, Smartphone, Laptop, Tablet, Headphones } from 'lucide-react';
+import { Suspense } from 'react';
 
 const Login = () => {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-  const callbackUrl = searchParams.get('callbackUrl');
-  const productId = searchParams.get('productId');
-
-  // Check if already logged in
-  useEffect(() => {
-    const cookies = document.cookie.split(';');
-    const authCookie = cookies.find(cookie => cookie.trim().startsWith('auth='));
+   
     
-    if (authCookie) {
-      // Already logged in, redirect to callback or home
-      if (callbackUrl) {
-        router.push(callbackUrl);
-      } else {
-        router.push('/');
-      }
-    }
-  }, [router, callbackUrl]);
+  
 
   return (
     <div className="min-h-screen flex items-center justify-center mt-12  bg-base-100 px-4 py-12">
