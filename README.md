@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ⚙️ Tech Gear – Online Tech Store & E-Commerce Platform
 
-## Getting Started
+**Tech Gear** is a modern and responsive online tech store built to showcase gadgets with a smooth user experience. The platform focuses on clean UI, category-based browsing, and a simple purchase flow, making it suitable for real-world e-commerce use cases.
 
-First, run the development server:
+---
+## Overview
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/d886b0a3-3d3c-454e-aa0a-8d73bb897c9c" />
+<img width="1919" height="884" alt="image" src="https://github.com/user-attachments/assets/f4936d46-531f-4a85-ab88-1f0680bb6d6d" />
+<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/80ba4715-2b03-4e89-bc3f-791d29c774d5" />
 
-```bash
+
+
+## 🌐 Live Demo
+
+🔗 **Live Site:** [https://tech-gear-website.vercel.app/](https://tech-gear-website.vercel.app/)
+📦 **GitHub Repository:** [https://github.com/Wasin87/Tech-Gear-Website.git](https://github.com/Wasin87/Tech-Gear-Website.git)
+
+---
+
+## 🚀 Technologies Used
+
+* **Next.js** – React framework for fast and scalable web applications
+* **Tailwind CSS** – Utility-first CSS framework for responsive design
+* **DaisyUI** – Pre-built Tailwind components for clean UI
+* **Framer Motion** – Smooth animations and transitions
+* **Mock Authentication** – Simulated user authentication system
+
+---
+## Installation & Running Locally
+Follow these steps to run the project locally:
+
+1. **Clone the repository**  
+  bash
+git clone https://github.com/Wasin87/Tech-Gear-Website.git
+Navigate to the project folder
+
+cd Tech-Gear-Website
+Install dependencies
+
+npm install
+Run the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open the app in your browser
+Go to http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+* 🔍 **Category-Based Gadget Search** for easy product discovery
+* 🛒 **Seamless Gadget Purchase Flow** with a user-friendly interface
+* 🔐 **Mock Authentication** for login and user interaction
+* 📱 **Responsive Design** optimized for all devices
+* 🎨 **Modern UI & Animations** for enhanced user experience
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📌 Purpose of the Project
 
-To learn more about Next.js, take a look at the following resources:
+This project was built to practice and demonstrate frontend development skills using modern web technologies, while also gaining hands-on experience with MERN-stack–oriented project structure and workflows.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Developer
 
-## Deploy on Vercel
+**Wasin Ahmed**
+Frontend Developer | Aspiring Full Stack Web Developer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ 
